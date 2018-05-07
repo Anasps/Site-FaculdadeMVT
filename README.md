@@ -1,2 +1,2 @@
 # Site-FaculdadeMVT
-Faculdade Anasps webiste using MVT architecture, implemented with Python using Django framework
+Faculdade Anasps website using MVT architecture, implemented with Python using Django framework
