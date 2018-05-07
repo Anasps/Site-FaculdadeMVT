@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load static %}
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -14,18 +15,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        
-        <!-- stylesheets -->
-        <link rel="stylesheet" href="static/css/bootstrap.min.css">
-        <link rel="stylesheet" href="static/css/font-awesome.min.css">
-        <link rel="stylesheet" href="static/css/animate.css">
-        <link rel="stylesheet" href="static/css/owl.carousel.css">
-        <link rel="stylesheet" href="static/css/owl.theme.css">
-        <link rel="stylesheet" href="static/css/style.css">
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" />
+        <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}" />
+        <link rel="stylesheet" href="{% static 'css/owl.carousel.css' %}" />
+        <link rel="stylesheet" href="{% static 'css/owl.theme.css' %}" />
+        <link rel="stylesheet" href="{% static 'css/style.css' %}" />
 
 
         <!-- scripts -->
-        <script type="text/javascript" src="static/js/modernizr.custom.97074.js"></script>
+        <script type="text/javascript" src="{% static 'js/modernizr.custom.97074.js' %}"></script>
 
     </head>
 
