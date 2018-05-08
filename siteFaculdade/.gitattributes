@@ -1,2 +1,3 @@
 static/* linguist-vendored
-templates/* linguist-vendored
+core/templates/* linguist-vendored
+presencial/templates/* linguist-vendored
