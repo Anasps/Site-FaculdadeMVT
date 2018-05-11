@@ -8,6 +8,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('siteFaculdade.core.urls')),
     path('presencial/', include('siteFaculdade.presencial.urls')),
+    path('onlineCourses/', include('siteFaculdade.free.urls')),
 ]
 
 if settings.DEBUG:

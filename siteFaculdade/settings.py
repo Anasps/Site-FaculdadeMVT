@@ -28,6 +28,7 @@ INSTALLED_APPS = [
 
     'siteFaculdade.core',
     'siteFaculdade.presencial',
+    'siteFaculdade.free',
 ]
 
 MIDDLEWARE = [
